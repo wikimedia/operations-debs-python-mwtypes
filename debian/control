@@ -1,0 +1,17 @@
+Source: mwtypes
+Maintainer: Yuvi Panda <yuvipanda@riseup.net>
+Section: python
+Priority: optional
+Build-Depends: python3-setuptools, python3-all, debhelper (>= 9)
+Homepage: https://github.com/mediawiki-utilities/python-mwtypes
+Standards-Version: 3.9.6
+
+Package: python3-mwtypes
+Architecture: any
+Depends: ${misc:Depends}, ${python3:Depends}, ${shlibs:Depends}
+Description: Shared MediaWiki related types (Revision, Page, etc)
+ This library provides a set of classes for working with MediaWiki data types.  
+ The point of this library is to help standardize different schemes and naming
+ patterns between the database, XML dumps and API responses. 
+ .
+ Documentation at https://pythonhosted.org/mwtypes
